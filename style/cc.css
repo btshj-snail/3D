@@ -1,0 +1,27 @@
+html,body,div,p,ul,ol{
+    padding:0px;
+    margin:0px;
+}
+
+
+body,html{
+    background:#000;
+    font-size:14px;
+    font-family:微软亚黑;
+    color:#fff;
+}
+.pageHead{
+    height:60px;
+    line-height:60px;
+    border-bottom:solid 1px #ccc;
+    font-size:18px;
+}
+.pageContent{
+    margin-top:50px;
+}
+.canvasFrame {
+    border: solid 1px #eee;
+    margin:0px auto;
+    width:800px;
+    height:500px;
+}
