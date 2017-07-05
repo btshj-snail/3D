@@ -12,12 +12,9 @@ var init = function(){
     var scene = new THREE.Scene();
 
     var camera = new THREE.OrthographicCamera(-2,2,1.5,-1.5,1,10);
-<<<<<<< HEAD
-    camera.position.set(0,0,5);
-=======
+
     camera.position.set(4,-3,5);
     camera.lookAt(new THREE.Vector3(0,0,0));
->>>>>>> 50fd8f02deb85679f10fc587f1c90cef86552cdf
 
     scene.add(camera);
 
